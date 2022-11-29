@@ -1,0 +1,36 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header, footer  {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1   {
+    font-size: 60px;
+
+}
+
+.animation {
+    height: 100vh;
+    background: rgb(6, 98, 117);
+    position: relative;
+}
+
+footer  {
+    background: rgba(13, 11, 11, 0.677);
+    
+}
+
+.flight {
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
